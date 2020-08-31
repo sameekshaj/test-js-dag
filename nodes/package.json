@@ -1,0 +1,15 @@
+{
+  "name": "ipfs-lite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@textile/ipfs-lite": "^0.1.6",
+    "dag-service": "0.0.0-dev",
+    "ipfs-bitswap": "^2.0.1",
+    "it-length-prefixed": "^3.1.0",
+    "it-pipe": "^1.1.0",
+    "multiaddr": "^7.5.0",
+    "protons": "^2.0.0"
+  }
+}

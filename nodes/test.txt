@@ -1,0 +1,1092 @@
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
+Aim: To figure out the solution that how we could establish direct connection between the peers to exchange data without using any relay server except for establishing connections if required.
+
+To get the solution I have tried out and done research on multiple topics but not figured it out yet.
+Explored webRTC, it is used to transfer data between users in real time. By default it uses STUN server and to handle symmetric addressing issues related to NAT can be solved using TURN server but we don’t want it.
+Js libp2p, a js library which allow to establish the connection between peers
+Js libp2p-webRTC-star, tried out this with one example, run the signalling server on our ipfs-dev server and an example on local. Here able to establish a connection between other nodes via this signalling server successfully but not able to share the files.
+Js-ipfs, explored this library, tried to run swarm connect command to connect with peers but it was not working. After that I tried to upload and download the file that was happening. In its config file there is no multi address to connect with werRTC server only they provided for webSocket. Also added the address for webRTC server but it was not detecting it.
+At the end I tried an example given on js-ipfs repo, there they are using webRTC server to establish the connection between peers and allowed to share the files too. But here not sure this signalling server acts as relay or just establishing the connection. To be sure about it, we need to monitor gcp vm by observing incoming and outgoing traffic.
+
+
+Issue: In our current application we have some bootstraps nodes which are helping to exchange the data between the nodes instead of directly establishing the connection between peers. By using bootstrap nodes as an intermediary or a relay, data going to bootstrap nodes first and then getting served from there which is adding some extra cost for streamspace to pay.
+
