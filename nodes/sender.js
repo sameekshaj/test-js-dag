@@ -24,7 +24,7 @@ try {
     
     await lite.start();
     
-    let data = await lite.addFile(source, {codec: "dag-pb" });
+    let data = await lite.addFile(source, {codec: "dag-pb", rawLeaves: false });
     console.log(data)
 
 
